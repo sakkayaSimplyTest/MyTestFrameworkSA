@@ -1,0 +1,22 @@
+package com.framework;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+public class MyFirstTest {
+
+    @Test
+    void myFirstTest() {
+        int result = sum(2, 2);
+//        Assertions.assertNotEquals(5, result);
+        assertEquals(4, result);
+    }
+
+    static int sum(int a,  int b) {
+        return a + b;
+    }
+
+
+
+}
