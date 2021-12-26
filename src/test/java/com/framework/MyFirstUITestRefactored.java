@@ -16,10 +16,10 @@ import static org.junit.jupiter.api.Assertions.*;
 public class MyFirstUITestRefactored {
 
     public static final String BASE_URL = "https://github.com/";
-    WebDriver driver;
+     static WebDriver driver;
 
-    @BeforeEach // @BeforeMethod in TestNG
-     void setUp() {
+    @BeforeAll // @BeforeMethod in TestNG
+     static void setUp() {
          // Create the driver object
 
          // Arrange
@@ -29,8 +29,8 @@ public class MyFirstUITestRefactored {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 
-    @AfterEach
-    void cleanUp() {      // tearDown()
+    @AfterAll
+    static void cleanUp() {      // tearDown()
         driver.close();
     }
 
