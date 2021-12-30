@@ -1,4 +1,4 @@
-package com.framework;
+package framework;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -10,7 +10,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-import java.util.logging.Level;
 
 
 public class MyFirstUITest {

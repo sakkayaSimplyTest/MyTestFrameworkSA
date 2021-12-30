@@ -1,4 +1,4 @@
-package com.framework.uitests;
+package framework.uitests;
 
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;

@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 public class DriverFactory {
 
-    public static WebDriver getChromedriver() {
+    public static WebDriver getChromeDriver() {
         System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
         ChromeOptions options = new ChromeOptions().addArguments("start-fullscreen");
         WebDriver driver = new ChromeDriver(options);

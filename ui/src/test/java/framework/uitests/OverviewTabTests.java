@@ -1,13 +1,14 @@
-package com.framework.uitests;
+package framework.uitests;
 
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class OverviewTabTests extends BaseTestClass{
+public class OverviewTabTests extends BaseTestClass {
 
     //Arrange
     String user = "andrejs-ps";
